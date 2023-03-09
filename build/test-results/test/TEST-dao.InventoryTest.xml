@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dao.InventoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-09T09:04:43" hostname="MBP-C02F49WBMD6M" time="1.574">
+  <properties/>
+  <testcase name="addItemTest()" classname="dao.InventoryTest" time="1.556"/>
+  <testcase name="deleteItemTest_ItemNotPresent_CountRemainsSame()" classname="dao.InventoryTest" time="0.017"/>
+  <system-out><![CDATA[Item added with id : 774edf39-0730-4c2b-9c0f-4236117da2bf
+Failed to delete item with id : random
+]]></system-out>
+  <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+</testsuite>
